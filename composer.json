@@ -1,5 +1,5 @@
 {
-  "name": "iisyos/composer-sample",
+  "name": "iisyos/composer-aa",
   "description": "This is a sample Composer package.",
   "type": "library",
   "license": "MIT",
@@ -9,7 +9,8 @@
     }
   ],
   "require": {
-    "php": "^8.2.9"
+    "php": "^8.2.9",
+    "iisyos/composer-sample": "^1.0"
   },
   "autoload": {
     "psr-4": {

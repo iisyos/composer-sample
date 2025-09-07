@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "99c675a330b0b66f564d8c5118329a80",
-    "packages": [],
+    "content-hash": "d29e21d5c42a000743f50e3bc231893f",
+    "packages": [
+        {
+            "name": "iisyos/composer-sample",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iisyos/composer-sample.git",
+                "reference": "eae4fe1b11fe53dd70c84ebae839aa1a25ac0226"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iisyos/composer-sample/zipball/eae4fe1b11fe53dd70c84ebae839aa1a25ac0226",
+                "reference": "eae4fe1b11fe53dd70c84ebae839aa1a25ac0226",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^11.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "app/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "iisyos"
+                }
+            ],
+            "description": "This is a sample Composer package.",
+            "support": {
+                "issues": "https://github.com/iisyos/composer-sample/issues",
+                "source": "https://github.com/iisyos/composer-sample/tree/1.0.0"
+            },
+            "time": "2025-09-07T11:59:37+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "myclabs/deep-copy",
